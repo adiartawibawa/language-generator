@@ -30,5 +30,7 @@
                 "Adiartawibawa\\LanguageGenerator\\LanguageGeneratorServiceProvider"
             ]
         }
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
