@@ -1,0 +1,34 @@
+{
+    "name": "adiartawibawa/language-generator",
+    "description": "A Laravel package to generate and translate language files using Google Translate",
+    "keywords": [
+        "laravel",
+        "language",
+        "translate",
+        "google translate"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Adi Arta Wibawa",
+            "email": "surat.buat.adi@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "ext-json": "*",
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Adiartawibawa\\LanguageGenerator\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Adiartawibawa\\LanguageGenerator\\LanguageGeneratorServiceProvider"
+            ]
+        }
+    }
+}
